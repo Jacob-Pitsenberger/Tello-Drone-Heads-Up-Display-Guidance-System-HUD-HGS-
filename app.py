@@ -14,7 +14,7 @@ import cv2
 from djitellopy import tello
 from tkinter import *
 from PIL import Image, ImageTk
-from indicators.indicators import Indicators
+from indicators import Indicators
 from xbox_one_controller import XboxController
 import time
 import threading

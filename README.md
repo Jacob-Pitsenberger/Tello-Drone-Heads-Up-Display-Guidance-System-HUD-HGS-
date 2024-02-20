@@ -83,7 +83,7 @@ Dependencies:
 - `indicators` module: Custom module for drawing HUD elements like battery indicators.
 - `xbox_one_controller`: Custom module for integrating Xbox One controller inputs (commented out in this version).
 
-### [indicators.py](indicators/indicators.py)
+### [indicators.py](indicators.py)
 
 This module contains the Indicators class, designed to interface with a Tello drone object to monitor and display
 various flight indicators such as battery level. It utilizes OpenCV for drawing indicators on a video feed,
