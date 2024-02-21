@@ -20,7 +20,7 @@ import time
 import threading
 
 
-class GUI:
+class App:
     def __init__(self):
 
         # Initialize the root window and set its state to fill the screen (JP)
@@ -39,9 +39,11 @@ class GUI:
         # Drones fly state for takeoff/land button functionality
         self.flying = False
 
+        ### **** NEW **** ###
         # Define the height and width to resize the current frame to
         self.h = 480
         self.w = 720
+        ### ************* ###
 
         # Initialize the state of the image for the video stream
         self.image = None
@@ -180,8 +182,8 @@ class GUI:
 
 
 if __name__ == "__main__":
-    # Initialize the GUI
-    gui = GUI()
+    # Initialize the App
+    gui = App()
 
     # Call the run_app method to run tkinter mainloop
     gui.run_app()
