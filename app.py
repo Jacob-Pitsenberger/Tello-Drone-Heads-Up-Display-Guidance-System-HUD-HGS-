@@ -172,8 +172,9 @@ class App:
         try:
             # Release any resources
             print("Cleaning up resources...")
-            # self.indicators = None
+            ### **** NEW **** ###
             self.indicators.update = False
+            ### ************* ###
             self.drone.end()
             self.root.quit()  # Quit the Tkinter main loop
             exit()
